@@ -7,3 +7,10 @@ License: GPL-3
 MD5sum: 92e1eb5f55bac465fa8ea6c37ebf06ee
 NeedsCompilation: no
 
+Package: fbglobal
+Version: 0.2.2
+Suggests: stringr
+License: GPL-3
+MD5sum: 38f592be8c4d25b40a62c7ad4a25c39e
+NeedsCompilation: no
+

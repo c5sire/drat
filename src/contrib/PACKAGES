@@ -25,3 +25,11 @@ License: GPL-3
 MD5sum: 73d2c8ad3b4ea64b88e2376d7f451334
 NeedsCompilation: no
 
+Package: fbhelp
+Version: 0.0.0.9000
+Depends: R (>= 3.2.3)
+Imports: shiny, shinyBS, yaml
+License: GPL-3
+MD5sum: 918a2d3b1583ec3738c5d50c40a3119f
+NeedsCompilation: no
+

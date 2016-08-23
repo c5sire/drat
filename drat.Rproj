@@ -12,5 +12,10 @@ Encoding: UTF-8
 RnwWeave: knitr
 LaTeX: pdfLaTeX
 
+<<<<<<< HEAD
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
+=======
+BuildType: Package
+PackageInstallArgs: --no-multiarch --with-keep.source
+>>>>>>> 872e7dbd2b21e0f4593079805912389b225ddb16

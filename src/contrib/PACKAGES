@@ -1,7 +1,9 @@
-Package: drat
-Version: 0.0.4
-Suggests: git2r, knitr
-License: GPL (>= 2)
-MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
+Package: brapi
+Version: 0.0.0.9048
+Depends: R (>= 3.2.4)
+Imports: httr, jsonlite, stringr, progress, curl, magrittr, shiny, dplyr, fbglobal
+Suggests: knitr, miniUI, rmarkdown
+License: GPL-3
+MD5sum: 0ee7966625afe20514ba80adbb9db231
 NeedsCompilation: no
 

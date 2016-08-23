@@ -5,3 +5,8 @@ Imports: httr, jsonlite, stringr, progress, curl, magrittr, shiny, dplyr, fbglob
 Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
+Package: fbglobal
+Version: 0.2.2
+Suggests: stringr
+License: GPL-3
+

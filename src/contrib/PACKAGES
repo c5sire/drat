@@ -8,9 +8,10 @@ MD5sum: 92e1eb5f55bac465fa8ea6c37ebf06ee
 NeedsCompilation: no
 
 Package: fbglobal
-Version: 0.2.2
+Version: 0.2.3
+Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
-MD5sum: 38f592be8c4d25b40a62c7ad4a25c39e
+MD5sum: 73d2c8ad3b4ea64b88e2376d7f451334
 NeedsCompilation: no
 

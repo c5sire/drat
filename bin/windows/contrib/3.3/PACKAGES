@@ -20,7 +20,7 @@ Suggests: stringr
 License: GPL-3
 
 Package: fbhelp
-Version: 0.0.0.9002
+Version: 0.0.0.9003
 Depends: R (>= 3.2.3)
 Imports: shiny, shinyBS, yaml
 License: GPL-3

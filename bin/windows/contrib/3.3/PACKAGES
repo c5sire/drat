@@ -6,11 +6,11 @@ Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
 Package: brapps
-Version: 0.0.0.9009
+Version: 0.0.0.9011
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
-         fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown,
-         stringr, withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
+          fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
+          withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
 
 Package: fbglobal
@@ -20,8 +20,15 @@ Suggests: stringr
 License: GPL-3
 
 Package: fbhelp
-Version: 0.0.0.9000
+Version: 0.0.0.9002
 Depends: R (>= 3.2.3)
 Imports: shiny, shinyBS, yaml
 License: GPL-3
+
+Package: fbmet
+Version: 0.0.0.9003
+Depends: R (>= 3.2.3)
+Imports: shiny, miniUI, ggplot2, ggrepel, agricolae, dplyr, stringr, fbhelp, st4gi
+Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS, shinyFiles
+License: GPL-2
 

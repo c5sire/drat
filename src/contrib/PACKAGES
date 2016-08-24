@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.0.9009
+Version: 0.0.0.9011
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
-         fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown,
-         stringr, withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
+          fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
+          withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: a93ebb524ec46504e25c9e04b557d8a9
+MD5sum: 665d562b7db2b5fd5b88e49145a9e050
 NeedsCompilation: no
 
 Package: fbglobal
@@ -26,10 +26,19 @@ MD5sum: 73d2c8ad3b4ea64b88e2376d7f451334
 NeedsCompilation: no
 
 Package: fbhelp
-Version: 0.0.0.9000
+Version: 0.0.0.9002
 Depends: R (>= 3.2.3)
 Imports: shiny, shinyBS, yaml
 License: GPL-3
-MD5sum: 918a2d3b1583ec3738c5d50c40a3119f
+MD5sum: 764e34cea6a36754d2e78dd3276ad0d2
+NeedsCompilation: no
+
+Package: fbmet
+Version: 0.0.0.9003
+Depends: R (>= 3.2.3)
+Imports: shiny, miniUI, ggplot2, ggrepel, agricolae, dplyr, stringr, fbhelp, st4gi
+Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS, shinyFiles
+License: GPL-2
+MD5sum: fb51004d56dd57e83ee9a0219ab1ef7c
 NeedsCompilation: no
 

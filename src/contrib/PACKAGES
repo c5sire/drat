@@ -1,18 +1,10 @@
 Package: brapi
-<<<<<<< HEAD
 Version: 0.0.0.9048
-=======
-Version: 0.0.0.9047
->>>>>>> d56614dc3b92da512fd5ba3b7ab0243aba83f888
 Depends: R (>= 3.2.4)
 Imports: httr, jsonlite, stringr, progress, curl, magrittr, shiny, dplyr, fbglobal
 Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
-<<<<<<< HEAD
-MD5sum: 0ee7966625afe20514ba80adbb9db231
-=======
 MD5sum: 92e1eb5f55bac465fa8ea6c37ebf06ee
->>>>>>> d56614dc3b92da512fd5ba3b7ab0243aba83f888
 NeedsCompilation: no
 
 Package: brapps
@@ -33,7 +25,6 @@ License: GPL-3
 MD5sum: 73d2c8ad3b4ea64b88e2376d7f451334
 NeedsCompilation: no
 
-<<<<<<< HEAD
 Package: fbhelp
 Version: 0.0.0.9000
 Depends: R (>= 3.2.3)
@@ -41,6 +32,3 @@ Imports: shiny, shinyBS, yaml
 License: GPL-3
 MD5sum: 918a2d3b1583ec3738c5d50c40a3119f
 NeedsCompilation: no
-
-=======
->>>>>>> d56614dc3b92da512fd5ba3b7ab0243aba83f888

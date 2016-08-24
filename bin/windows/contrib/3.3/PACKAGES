@@ -19,9 +19,12 @@ Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
 
+<<<<<<< HEAD
 Package: fbhelp
 Version: 0.0.0.9000
 Depends: R (>= 3.2.3)
 Imports: shiny, shinyBS, yaml
 License: GPL-3
 
+=======
+>>>>>>> d56614dc3b92da512fd5ba3b7ab0243aba83f888

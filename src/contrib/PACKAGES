@@ -1,10 +1,10 @@
 Package: brapi
-Version: 0.0.0.9048
+Version: 0.0.0.9049
 Depends: R (>= 3.2.4)
 Imports: httr, jsonlite, stringr, progress, curl, magrittr, shiny, dplyr, fbglobal
 Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
-MD5sum: 92e1eb5f55bac465fa8ea6c37ebf06ee
+MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
@@ -32,3 +32,4 @@ Imports: shiny, shinyBS, yaml
 License: GPL-3
 MD5sum: 918a2d3b1583ec3738c5d50c40a3119f
 NeedsCompilation: no
+

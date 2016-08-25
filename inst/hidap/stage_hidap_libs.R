@@ -88,8 +88,8 @@ setwd(drat_dir)
 
 # git commit
 #repo = "https://github.com/c5sire/drat.git"
-# repo = git2r::init(drat_dir)
-# git2r::commit(repo, "update packages by script")
+  # repo = git2r::init(drat_dir)
+  # git2r::commit(repo, "update packages by script")
 
 # git push
 

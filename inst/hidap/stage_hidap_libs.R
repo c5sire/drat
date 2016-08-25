@@ -1,20 +1,26 @@
 library(readr)
 library(git2r)
-library(log4r)
+#library(log4r)
 
 # setup ref to online repo
 drat::addRepo("c5sire")
-drat_dir = "D:/packages/drat/"
+# drat_dir = "D:/packages/drat/"
+drat_dir = "/Users/reinhardsimon/Documents/projects/drat"
 
 # stage_hidap_libs
 
 # get a temp dir
-setwd("d:/packages/drat/inst/hidap/")
-stage_dir = file.path( "D:/temp", "stage")
+#setwd("d:/packages/drat/inst/hidap/")
+setwd(file.path(drat_dir, "inst", "hidap" ))
+
+#stage_dir = file.path( "D:/temp", "stage")
+stage_dir = file.path( tempdir(), "stage")
+
+
 unlink(stage_dir, recursive = TRUE, force = TRUE)
 if(!dir.exists(stage_dir)) dir.create(stage_dir)
 
-logger <- create.logger(logfile = 'debugging_hidap2drat.log', level = "WARN")
+#logger <- create.logger(logfile = 'debugging_hidap2drat.log', level = "WARN")
 
 # get list of hidap packages
 
@@ -33,12 +39,12 @@ for(i in 1:n ){
     url = paste0("https://github.com/", pkgs[i], ".git")
     git2r::clone(url, dp)
     new_pkg = new_pkg + 1
-    info(logger, paste0("Added package: ", pkgs[i]))
+    #info(logger, paste0("Added package: ", pkgs[i]))
   }
 }
 pkg_new_msg = paste0(new_pkg, " new package(s) added.")
 cat(pkg_new_msg)
-info(logger, pkg_new_msg)
+#info(logger, pkg_new_msg)
 
 # TODO simple method to check if repository is ahead
 
@@ -71,17 +77,18 @@ for(i in 1:n) {
     new_wd = file.path(stage_dir, pkgn[i])
     setwd(new_wd)
     # create src package
-    devtools::build()
+    #devtools::build()
     devtools::build(binary = TRUE)
   })
 }
 
 setwd(stage_dir)
-pkg_bin = list.files(pattern = ".zip")
+#pkg_bin = list.files(pattern = ".zip")
+pkg_bin = list.files(pattern = ".tgz")
 sapply(pkg_bin, drat::insertPackage, repodir = drat_dir)
 
-pkg_src = list.files(pattern = ".tar.gz")
-sapply(pkg_src, drat::insertPackage, repodir = drat_dir)
+# pkg_src = list.files(pattern = ".tar.gz")
+# sapply(pkg_src, drat::insertPackage, repodir = drat_dir)
 
 # after finalizing all updates:
 setwd(drat_dir)

@@ -15,6 +15,7 @@ omarbenites/fbsites
 omarbenites/fbdesign
 omarbenites/traittools
 omarbenites/fbanalysis
+omarbenites/openxlsx
 omarbenites/sbformula
 omarbenites/fbcheck
 omarbenites/shinysky

@@ -21,6 +21,7 @@ omarbenites/fbcheck
 omarbenites/shinysky
 omarbenites/openxlsx
 omarbenites/fbopenbooks
+omarbenites/fbmlist
 aoles/shinyURL
 rstudio/leaflet
 rstudio/DT

@@ -6,7 +6,7 @@ Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
 Package: brapps
-Version: 0.0.2.9001
+Version: 0.0.3
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
          fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
@@ -27,14 +27,14 @@ Suggests: jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, shiny (>= 0.12.1)
 License: GPL-3 | file LICENSE
 
 Package: fbanalysis
-Version: 1.0
+Version: 2.0.1
 Depends: R (>= 3.0.0), pepa, st4gi
 Imports: shiny, shinydashboard, readxl, data.table, shinyFiles
 Suggests: traittools
 License: MIT + file LICENSE
 
 Package: fbcheck
-Version: 1.0
+Version: 2.0
 Depends: R (>= 3.2.1)
 Imports: stringr, magrittr, openxlsx, readxl, tools, rhandsontable, doBy, shiny,
          traittools, sbformula, data.table, date
@@ -52,7 +52,7 @@ Suggests: testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
 License: GPL-3
 
 Package: fbdesign
-Version: 1.0
+Version: 2.0
 Depends: R (>= 3.2.1)
 Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae,
          readxl, stringr, fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram,
@@ -88,26 +88,26 @@ Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS,
 License: GPL-2
 
 Package: fbmlist
-Version: 1.0
+Version: 2.0.0
 Depends: R (>= 3.1.1), DBI, RMySQL, spsurvey, foreign, DT, data.table, dplyr,
          openxlsx, shiny, shinydashboard, shinyjs, shinysky, stringr
 License: MIT + file LICENSE
 
 Package: fbopenbooks
-Version: 1.0
+Version: 1.0.0
 Depends: R (>= 3.2.1)
 Suggests: shiny, shinydashboard, DT
 License: MIT + file LICENSE
 
 Package: fbsites
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.2.2)
 Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
          rhandsontable
 License: GPL-3
 
 Package: hidap
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
          curl, DBI, devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr,
@@ -132,7 +132,7 @@ Suggests: knitr, maps, shiny, testit (>= 0.4), rgdal, R6, RJSONIO
 License: GPL-3 | file LICENSE
 
 Package: openxlsx
-Version: 3.0.27
+Version: 4.0.0
 Imports: methods, Rcpp, grDevices, stats, utils
 LinkingTo: Rcpp
 Suggests: knitr, testthat
@@ -147,7 +147,7 @@ Suggests: testthat
 License: MIT + file LICENSE
 
 Package: sbformula
-Version: 1.0
+Version: 2.0.0
 Depends: R (>= 3.0.2)
 Imports: doBy, stringr, date, dplyr, car
 Suggests: knitr, testthat
@@ -159,7 +159,7 @@ Imports: tools, shiny (>= 0.11), htmltools, RJSONIO
 License: GPL (>= 2)
 
 Package: shinysky
-Version: 0.1.2
+Version: 2.0.0
 Depends: shiny, RJSONIO, plyr
 License: MIT + file LICENSE
 

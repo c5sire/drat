@@ -62,10 +62,10 @@ sapply(pkg_src, drat::insertPackage, repodir = drat_dir)
 
 # after finalizing all updates:
 setwd(drat_dir)
-
+drat::archivePackages(drat_dir)
 
 # Manuually from within drat package: branch gh-pages
 # git commit
 
-# git push origin master
+# git push origin gh-pages
 

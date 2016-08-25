@@ -19,8 +19,7 @@ omarbenites/openxlsx
 omarbenites/sbformula
 omarbenites/fbcheck
 omarbenites/shinysky
-omarbenites/fbmlist
-c5sire/openxlsx
+omarbenites/openxlsx
 omarbenites/fbopenbooks
 aoles/shinyURL
 rstudio/leaflet

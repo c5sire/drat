@@ -9,8 +9,8 @@ Package: brapps
 Version: 0.0.1.9003
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
-         fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown,
-         stringr, withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
+         fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
+         withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
 
 Package: cropont
@@ -107,20 +107,20 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
 License: GPL-3
 
 Package: hidap
-Version: 1.0.0.9016
+Version: 1.0.0.9018
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
-         curl, DBI, devtools, labeling, gdata, httpuv, htmlwidgets, magrittr,
+         curl, DBI, devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr,
          minqa, munsell, nloptr, raster, fbhelp, st4gi, pepa, testthat, knitr,
-         rmarkdown, fbglobal, data.table, leaflet, d3heatmap, cropont,
-         fbmaterials, fbcrops, fbsites, readxl, stringr, shiny, shinydashboard,
-         rhandsontable, shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl,
-         pander, fbdesign, plotly, sbformula, traittools, fbcheck, brapi, brapps,
-         countrycode, RMySQL, fbcollect, prettyunits, tibble, gtable, scales,
-         xtable, Rcpp, RColorBrewer, spsurvey, colorspace, plyr, klaR, combinat,
-         spdep, deldir, coda, LearnBayes, gmodels, gtools, sp, Hmisc, Formula,
-         acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey,
-         stringi, shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
+         rmarkdown, fbglobal, data.table, leaflet, d3heatmap, cropont, fbmaterials,
+         fbcrops, fbsites, readxl, stringr, shiny, shinydashboard, rhandsontable,
+         shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl, pander, fbdesign,
+         plotly, sbformula, traittools, fbcheck, brapi, brapps, countrycode,
+         RMySQL, fbcollect, prettyunits, tibble, gtable, scales, xtable, Rcpp,
+         RColorBrewer, spsurvey, colorspace, plyr, klaR, combinat, spdep, deldir,
+         coda, LearnBayes, gmodels, gtools, sp, Hmisc, Formula, acepack,
+         latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey, stringi,
+         shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
          rmarkdown, yaml
 License: GPL-3
 

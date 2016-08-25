@@ -11,8 +11,7 @@ if(os == "win") drat_dir = "D:/packages/drat/"
 if(os == "mac") drat_dir = "/Users/reinhardsimon/Documents/projects/drat"
 
 # get a temp dir
-if(os == "win") setwd("d:/packages/drat/inst/hidap/")
-if(os == "mac") setwd(file.path(drat_dir, "inst", "hidap" ))
+setwd(file.path(drat_dir, "inst", "hidap" ))
 
 if(os == "win") stage_dir = file.path( "D:/temp", "stage")
 if(os == "mac") stage_dir = file.path( tempdir(), "stage")

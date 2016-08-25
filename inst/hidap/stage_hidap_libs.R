@@ -4,16 +4,18 @@ library(git2r)
 
 # setup ref to online repo
 drat::addRepo("c5sire")
+os = "win"
 
 # TODO auto switch on Windows and Mac to correct dirs
-# drat_dir = "D:/packages/drat/"
-drat_dir = "/Users/reinhardsimon/Documents/projects/drat"
-# get a temp dir
-#setwd("d:/packages/drat/inst/hidap/")
-setwd(file.path(drat_dir, "inst", "hidap" ))
+if(os == "win") drat_dir = "D:/packages/drat/"
+if(os == "mac") drat_dir = "/Users/reinhardsimon/Documents/projects/drat"
 
-#stage_dir = file.path( "D:/temp", "stage")
-stage_dir = file.path( tempdir(), "stage")
+# get a temp dir
+if(os == "win") setwd("d:/packages/drat/inst/hidap/")
+if(os == "mac") setwd(file.path(drat_dir, "inst", "hidap" ))
+
+if(os == "win") stage_dir = file.path( "D:/temp", "stage")
+if(os == "mac") stage_dir = file.path( tempdir(), "stage")
 
 
 unlink(stage_dir, recursive = TRUE, force = TRUE)
@@ -53,8 +55,8 @@ for(i in 1:n) {
 }
 
 setwd(stage_dir)
-#pkg_bin = list.files(pattern = ".zip")
-pkg_bin = list.files(pattern = ".tgz")
+if(os == "win") pkg_bin = list.files(pattern = ".zip")
+if(os == "mac") pkg_bin = list.files(pattern = ".tgz")
 sapply(pkg_bin, drat::insertPackage, repodir = drat_dir)
 
 pkg_src = list.files(pattern = ".tar.gz")

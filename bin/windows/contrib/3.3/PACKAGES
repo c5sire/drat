@@ -6,7 +6,7 @@ Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
 Package: brapps
-Version: 0.0.1.9003
+Version: 0.0.2.9001
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
          fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
@@ -107,7 +107,7 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
 License: GPL-3
 
 Package: hidap
-Version: 1.0.0.9018
+Version: 1.0.1
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
          curl, DBI, devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr,

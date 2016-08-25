@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.1.9003
+Version: 0.0.2.9001
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT,
          fbmaterials, htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr,
          withr, shinyFiles, readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: 7164324dbaa3a6012e7883c06b78b7d4
+MD5sum: af22c68b428881c25a333e63835d4565
 NeedsCompilation: no
 
 Package: cropont
@@ -23,7 +23,7 @@ Depends: R (>= 3.2.2)
 Suggests: fbglobal, fbcrops, rhandsontable, shiny, shinydashboard, testthat,
          RSelenium, readxl, stringr, magrittr
 License: GPL-3
-MD5sum: 9958464a66866456c3b2a0ea24f0ae39
+MD5sum: 9aefcf1e83c68cc0413a658ec534ebf6
 NeedsCompilation: no
 
 Package: DT
@@ -31,7 +31,7 @@ Version: 0.2.2
 Imports: htmltools (>= 0.3.5), htmlwidgets (>= 0.6), magrittr
 Suggests: jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, shiny (>= 0.12.1)
 License: GPL-3 | file LICENSE
-MD5sum: 90e1e557bde116af4c212aafd5cba02a
+MD5sum: 7ee696a2cd5316db046152c5f15d685b
 NeedsCompilation: no
 
 Package: fbanalysis
@@ -40,7 +40,7 @@ Depends: R (>= 3.0.0), pepa, st4gi
 Imports: shiny, shinydashboard, readxl, data.table, shinyFiles
 Suggests: traittools
 License: MIT + file LICENSE
-MD5sum: 6c32216984377da9cd3682ebf6a18391
+MD5sum: cd92af5d13106fa7376edd29124cf8ab
 NeedsCompilation: no
 
 Package: fbcheck
@@ -49,13 +49,13 @@ Depends: R (>= 3.2.1)
 Imports: stringr, magrittr, openxlsx, readxl, tools, rhandsontable, doBy, shiny,
          traittools, sbformula, data.table, date
 License: MIT + file LICENCE
-MD5sum: d92d1d54671d2caceda9b04fb3e0e42f
+MD5sum: de3219f0c093112d83dfd7c2c4d91068
 NeedsCompilation: no
 
 Package: fbcollect
 Version: 0.1.0.9005
 License: GPL-3
-MD5sum: e529c7de1fd6914d4415e5e0007725bb
+MD5sum: 8b49bd102f16d76bd331013e7f0a81c1
 NeedsCompilation: no
 
 Package: fbcrops
@@ -64,7 +64,7 @@ Depends: R (>= 3.2.2)
 Suggests: testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
          rhandsontable
 License: GPL-3
-MD5sum: fe7559d82cc734b459dc5eb660f72702
+MD5sum: 33b2aee59ae0b95ae0f959ff40cb18f5
 NeedsCompilation: no
 
 Package: fbdesign
@@ -74,7 +74,7 @@ Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae,
          readxl, stringr, fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram,
          fbprstages, fbsites, dplyr, magrittr, lazyeval, data.table, openxlsx
 License: GPL-3
-MD5sum: d0aeee1a4c2dc516665e698172795182
+MD5sum: 05571d945789de9b708c0c2eba62009f
 NeedsCompilation: no
 
 Package: fbglobal
@@ -100,7 +100,7 @@ Imports: agricolae, lubridate, magrittr
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny,
          shinydashboard, rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs
 License: GPL-3
-MD5sum: 9a716a3972665fbcffd78e8ae4d591be
+MD5sum: 5dd92ca1c7d8cc989fb79e0fd5e9c9ab
 NeedsCompilation: no
 
 Package: fbmet
@@ -110,7 +110,7 @@ Imports: shiny, miniUI, ggplot2, ggrepel, agricolae, dplyr, stringr, fbhelp, st4
 Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS,
          shinyFiles
 License: GPL-2
-MD5sum: e8960bae5846b7e4a61236cacc3ac6e0
+MD5sum: 6ad461e0b37559e482b5cec6bfd2ddf0
 NeedsCompilation: no
 
 Package: fbmlist
@@ -126,7 +126,7 @@ Version: 1.0
 Depends: R (>= 3.2.1)
 Suggests: shiny, shinydashboard, DT
 License: MIT + file LICENSE
-MD5sum: aeaf105672d1c15628c874c71eca5cf5
+MD5sum: 966d1dd9d1e2c0bcf7364991cebf3c42
 NeedsCompilation: no
 
 Package: fbsites
@@ -135,11 +135,11 @@ Depends: R (>= 3.2.2)
 Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
          rhandsontable
 License: GPL-3
-MD5sum: 6e3b468484cc336263b619eb4c2cb7b5
+MD5sum: 51fd2cbd34289b1596b4d4c4876d1fd5
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.0.9018
+Version: 1.0.1
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
          curl, DBI, devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr,
@@ -155,7 +155,7 @@ Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
          shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
          rmarkdown, yaml
 License: GPL-3
-MD5sum: 64c23e691b20925549a7eeec05366477
+MD5sum: 9b97e9aba701e2b3d3b3337bdcfd157d
 NeedsCompilation: no
 
 Package: leaflet
@@ -164,7 +164,7 @@ Imports: base64enc, htmlwidgets, htmltools, magrittr, markdown, png, RColorBrewe
          raster, scales (>= 0.2.5), sp
 Suggests: knitr, maps, shiny, testit (>= 0.4), rgdal, R6, RJSONIO
 License: GPL-3 | file LICENSE
-MD5sum: b2141dc07c58323852bb38d700c17528
+MD5sum: 3b8d6a2257ed59a49c91f8d796dbed02
 NeedsCompilation: no
 
 Package: openxlsx
@@ -173,7 +173,7 @@ Imports: methods, Rcpp, grDevices, stats, utils
 LinkingTo: Rcpp
 Suggests: knitr, testthat
 License: GPL-3
-MD5sum: 56fea12b7bcf459416d8953769bf3621
+MD5sum: 105df41505485b94f3d6b68de7524efa
 NeedsCompilation: yes
 
 Package: pepa
@@ -182,7 +182,7 @@ Depends: R (>= 3.0.0), st4gi
 Imports: agricolae, evaluate, htmltools, knitr, rmarkdown, yaml
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: e9d7655e9aae6b35d0c2232d14f36c87
+MD5sum: a9322f54dcb1e8c3f7e8f43133e39d8c
 NeedsCompilation: no
 
 Package: sbformula
@@ -191,21 +191,21 @@ Depends: R (>= 3.0.2)
 Imports: doBy, stringr, date, dplyr, car
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: f4c761bcb6df49538a9ea958a3c5f132
+MD5sum: dcf9ef14326619f49718d82a35c31483
 NeedsCompilation: no
 
 Package: shinyFiles
 Version: 0.6.1
 Imports: tools, shiny (>= 0.11), htmltools, RJSONIO
 License: GPL (>= 2)
-MD5sum: 5a9fcf50c78682cb6d0ad768df2c66f0
+MD5sum: ccdc328aece9e782d62a45ac3a5cf11a
 NeedsCompilation: no
 
 Package: shinysky
 Version: 0.1.2
 Depends: shiny, RJSONIO, plyr
 License: MIT + file LICENSE
-MD5sum: bfa4a1eacd4c6b1c38417618f69728b9
+MD5sum: 6cf7cfba5905a7e72c281f3054e955bd
 NeedsCompilation: no
 
 Package: shinyURL
@@ -213,7 +213,7 @@ Version: 0.0.35
 Imports: methods, RCurl, shiny (>= 0.13.0), utils
 Suggests: markdown, qrcode, rmarkdown
 License: Artistic-2.0
-MD5sum: 6ab0b263c4e6917bd84533aaabdd4778
+MD5sum: b948cb4a89cc86aa24aae2389759d392
 NeedsCompilation: no
 
 Package: st4gi
@@ -222,7 +222,7 @@ Depends: R (>= 3.0.0)
 Imports: lme4, shiny, ggplot2, ggrepel
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: d80c81250399ddef917042ce0b7ba1cb
+MD5sum: 7b7c8a059de6e07bb03f368fe36a41d7
 NeedsCompilation: no
 
 Package: traittools
@@ -231,6 +231,6 @@ Depends: R (>= 3.2.2)
 Imports: stringr, magrittr, openxlsx, readxl, tools, rhandsontable, doBy, shiny,
          date
 License: MIT + file LICENSE
-MD5sum: 288be81973db2953f4ff40a1a2a82735
+MD5sum: 5848b33309891d82996504012157173b
 NeedsCompilation: no
 

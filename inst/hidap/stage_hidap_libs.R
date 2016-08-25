@@ -11,6 +11,7 @@ drat_dir = "D:/packages/drat/"
 # get a temp dir
 setwd("d:/packages/drat/inst/hidap/")
 stage_dir = file.path( "D:/temp", "stage")
+unlink(stage_dir, recursive = TRUE, force = TRUE)
 if(!dir.exists(stage_dir)) dir.create(stage_dir)
 
 logger <- create.logger(logfile = 'debugging_hidap2drat.log', level = "WARN")
@@ -87,8 +88,8 @@ setwd(drat_dir)
 
 # git commit
 #repo = "https://github.com/c5sire/drat.git"
-repo = git2r::init(drat_dir)
-git2r::commit(repo, "update packages by script")
+# repo = git2r::init(drat_dir)
+# git2r::commit(repo, "update packages by script")
 
 # git push
 

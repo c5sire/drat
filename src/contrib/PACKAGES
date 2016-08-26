@@ -141,7 +141,7 @@ MD5sum: 431cf922d58126d041739cb301a3452b
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.2.9002
+Version: 1.0.2.9003
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc,
         bitops, curl, DBI, devtools, drat, labeling, gdata, httpuv,
@@ -158,7 +158,7 @@ Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc,
         shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
         rmarkdown, yaml
 License: GPL-3
-MD5sum: 826ed7878b2b9901caa2351b51baa593
+MD5sum: 0875df44fece63c65754a1072dabb4e4
 NeedsCompilation: no
 
 Package: leaflet

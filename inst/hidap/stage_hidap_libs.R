@@ -4,7 +4,7 @@ library(git2r)
 
 # setup ref to online repo
 drat::addRepo("c5sire")
-os = "win"
+os = "mac"
 
 # TODO auto switch on Windows and Mac to correct dirs
 if(os == "win") drat_dir = "D:/packages/drat/"

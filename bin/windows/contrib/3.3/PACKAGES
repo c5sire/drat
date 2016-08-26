@@ -61,7 +61,7 @@ Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae,
 License: GPL-3
 
 Package: fbglobal
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3

@@ -79,11 +79,11 @@ MD5sum: 46c0f6e56155151c498ee3cbcce99cac
 NeedsCompilation: no
 
 Package: fbglobal
-Version: 0.2.3
+Version: 0.2.4
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
-MD5sum: 73d2c8ad3b4ea64b88e2376d7f451334
+MD5sum: 77e4ccac72d6f6b0df7cee0d240c7137
 NeedsCompilation: no
 
 Package: fbhelp

@@ -6,18 +6,18 @@ Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
 Package: brapps
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.2.4)
-Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials, htmlTable,
-           leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles, readxl, fbglobal,
-           rstudioapi, st4gi, pepa
+Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
+           htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles,
+           readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
 
 Package: cropont
 Version: 0.1.0
 Depends: R (>= 3.2.2)
-Suggests: fbglobal, fbcrops, rhandsontable, shiny, shinydashboard, testthat, RSelenium, readxl, stringr,
-           magrittr
+Suggests: fbglobal, fbcrops, rhandsontable, shiny, shinydashboard, testthat, RSelenium, readxl,
+           stringr, magrittr
 License: GPL-3
 
 Package: DT
@@ -36,8 +36,8 @@ License: MIT + file LICENSE
 Package: fbcheck
 Version: 2.0
 Depends: R (>= 3.2.1)
-Imports: stringr, magrittr, openxlsx, readxl, tools, rhandsontable, doBy, shiny, traittools, sbformula,
-           data.table, date
+Imports: stringr, magrittr, openxlsx, readxl, tools, rhandsontable, doBy, shiny, traittools,
+           sbformula, data.table, date
 License: MIT + file LICENCE
 
 Package: fbcollect
@@ -54,8 +54,8 @@ Package: fbdesign
 Version: 2.0.1
 Depends: R (>= 3.2.1)
 Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae, readxl, stringr,
-           fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram, fbprstages, fbsites, dplyr, magrittr,
-           lazyeval, data.table, openxlsx
+           fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram, fbprstages, fbsites, dplyr,
+           magrittr, lazyeval, data.table, openxlsx
 License: GPL-3
 
 Package: fbglobal
@@ -74,8 +74,8 @@ Package: fbmaterials
 Version: 0.0.7.9001
 Depends: R (>= 3.2.4)
 Imports: agricolae, lubridate, magrittr
-Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny, shinydashboard, rhandsontable,
-           shinyFiles, shinyBS, fbcrops, shinyjs
+Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny, shinydashboard,
+           rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs
 License: GPL-3
 
 Package: fbmet
@@ -104,24 +104,25 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rh
 License: GPL-3
 
 Package: hidap
-Version: 1.0.2.9005
+Version: 1.0.2.9006
 Depends: R (>= 3.2.2)
-Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
-           drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,
-           fbhelp, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, data.table, leaflet, d3heatmap,
-           cropont, fbmaterials, fbcrops, fbsites, readxl, stringr, shiny, shinydashboard,
-           rhandsontable, shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl, pander, fbdesign,
-           plotly, sbformula, traittools, fbcheck, brapi, brapps, countrycode, RMySQL, fbcollect,
-           prettyunits, tibble, gtable, scales, xtable, Rcpp, RColorBrewer, spsurvey, colorspace, plyr,
-           klaR, combinat, spdep, deldir, coda, LearnBayes, gmodels, gtools, sp, Hmisc, Formula,
-           acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey, stringi, shinyURL,
-           shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks, rmarkdown, yaml
+Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI,
+           devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr,
+           raster, fbhelp, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, data.table, leaflet,
+           d3heatmap, cropont, fbmaterials, fbcrops, fbsites, readxl, stringr, shiny,
+           shinydashboard, rhandsontable, shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl,
+           pander, fbdesign, plotly, sbformula, traittools, fbcheck, brapi, brapps, countrycode,
+           RMySQL, fbcollect, prettyunits, tibble, gtable, scales, xtable, Rcpp, RColorBrewer,
+           spsurvey, colorspace, plyr, klaR, combinat, spdep, deldir, coda, LearnBayes, gmodels,
+           gtools, sp, Hmisc, Formula, acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos,
+           spsurvey, stringi, shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
+           rmarkdown, yaml
 License: GPL-3
 
 Package: leaflet
 Version: 1.0.1.9004
-Imports: base64enc, htmlwidgets, htmltools, magrittr, markdown, png, RColorBrewer, raster, scales (>=
-           0.2.5), sp
+Imports: base64enc, htmlwidgets, htmltools, magrittr, markdown, png, RColorBrewer, raster, scales
+           (>= 0.2.5), sp
 Suggests: knitr, maps, shiny, testit (>= 0.4), rgdal, R6, RJSONIO
 License: GPL-3 | file LICENSE
 

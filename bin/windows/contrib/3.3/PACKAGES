@@ -6,7 +6,7 @@ Suggests: knitr, miniUI, rmarkdown
 License: GPL-3
 
 Package: brapps
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
            htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles,
@@ -59,7 +59,7 @@ Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae, r
 License: GPL-3
 
 Package: fbglobal
-Version: 0.2.4
+Version: 0.2.6
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
@@ -71,7 +71,7 @@ Imports: shiny, shinyBS, yaml
 License: GPL-3
 
 Package: fbmaterials
-Version: 0.0.7.9001
+Version: 0.0.7.9002
 Depends: R (>= 3.2.4)
 Imports: agricolae, lubridate, magrittr
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny, shinydashboard,
@@ -104,7 +104,7 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rh
 License: GPL-3
 
 Package: hidap
-Version: 1.0.2.9006
+Version: 1.0.2.9009
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI,
            devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr,

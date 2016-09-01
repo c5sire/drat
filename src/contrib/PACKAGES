@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.4
+Version: 0.0.5
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
            htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles,
            readxl, fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: dd4948aa69121fa01d6f9324ddd4fab6
+MD5sum: 7003ade4360f2355f82f0402d56c022c
 NeedsCompilation: no
 
 Package: cropont
@@ -77,11 +77,11 @@ MD5sum: 75d3a29820ada73d4269a36a6030e3f5
 NeedsCompilation: no
 
 Package: fbglobal
-Version: 0.2.4
+Version: 0.2.6
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
-MD5sum: 77e4ccac72d6f6b0df7cee0d240c7137
+MD5sum: 5a3e08a7f5c00d80cdf3e9a00f99e972
 NeedsCompilation: no
 
 Package: fbhelp
@@ -93,13 +93,13 @@ MD5sum: c7283e5fcc47df12ad4f9758af404afd
 NeedsCompilation: no
 
 Package: fbmaterials
-Version: 0.0.7.9001
+Version: 0.0.7.9002
 Depends: R (>= 3.2.4)
 Imports: agricolae, lubridate, magrittr
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny, shinydashboard,
            rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs
 License: GPL-3
-MD5sum: 18384eacb5987ba9493308d17b7a53e9
+MD5sum: 910102b6ef2b9c597b95657536733c9a
 NeedsCompilation: no
 
 Package: fbmet
@@ -136,7 +136,7 @@ MD5sum: 5b76c16434c02f0cf17cda8e0fbd9c8b
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.2.9006
+Version: 1.0.2.9009
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI,
            devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr,
@@ -150,7 +150,7 @@ Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
            spsurvey, stringi, shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
            rmarkdown, yaml
 License: GPL-3
-MD5sum: 1b25082423d8410ec9a1c911fb46821c
+MD5sum: c595133a9ab23fafc4e4b72f41ac100c
 NeedsCompilation: no
 
 Package: leaflet

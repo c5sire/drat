@@ -81,7 +81,7 @@ Version: 0.2.6
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
-MD5sum: 5a3e08a7f5c00d80cdf3e9a00f99e972
+MD5sum: bc602de1702d004bfd3332996e05dcea
 NeedsCompilation: no
 
 Package: fbhelp
@@ -112,11 +112,11 @@ MD5sum: 1f24867b0145135b9ff47c02eb6e5319
 NeedsCompilation: no
 
 Package: fbmlist
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.1.1), DBI, RMySQL, spsurvey, foreign, DT, data.table, dplyr, openxlsx, shiny,
            shinydashboard, shinyjs, shinysky, stringr
 License: MIT + file LICENSE
-MD5sum: 78d16926b119d144505564134c98d50d
+MD5sum: e27135fed45f3abd1d4cbdc6e7439c6f
 NeedsCompilation: no
 
 Package: fbopenbooks

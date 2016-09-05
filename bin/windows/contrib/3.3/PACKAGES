@@ -86,7 +86,7 @@ Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS, sh
 License: GPL-2
 
 Package: fbmlist
-Version: 2.0.1
+Version: 2.0.2
 Depends: R (>= 3.1.1), DBI, RMySQL, spsurvey, foreign, DT, data.table, dplyr, openxlsx, shiny,
            shinydashboard, shinyjs, shinysky, stringr
 License: MIT + file LICENSE

@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.10
+Version: 0.0.11
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
            htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles, readxl,
            fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: 763522b3a71fa426f10a16ba9a6d3ca0
+MD5sum: 8390ad3b77fc780c707eccfceafbd2ee
 NeedsCompilation: no
 
 Package: cropont

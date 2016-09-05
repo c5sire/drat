@@ -77,11 +77,11 @@ MD5sum: 75d3a29820ada73d4269a36a6030e3f5
 NeedsCompilation: no
 
 Package: fbglobal
-Version: 0.2.6
+Version: 0.2.7
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
-MD5sum: bc602de1702d004bfd3332996e05dcea
+MD5sum: 8e731d626e61c110b59fefdb3b83955a
 NeedsCompilation: no
 
 Package: fbhelp
@@ -136,7 +136,7 @@ MD5sum: 5b76c16434c02f0cf17cda8e0fbd9c8b
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.2.9012
+Version: 1.0.2.9014
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
            drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,
@@ -149,7 +149,7 @@ Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
            Formula, acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey, stringi,
            shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks, rmarkdown, yaml
 License: GPL-3
-MD5sum: 295538a59212f23c32737667f910968b
+MD5sum: f6333fe9f7c3842b58b4086c27034c27
 NeedsCompilation: no
 
 Package: leaflet

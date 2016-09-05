@@ -59,7 +59,7 @@ Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae, r
 License: GPL-3
 
 Package: fbglobal
-Version: 0.2.6
+Version: 0.2.7
 Depends: R (>= 3.2.4)
 Suggests: stringr
 License: GPL-3
@@ -104,7 +104,7 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rh
 License: GPL-3
 
 Package: hidap
-Version: 1.0.2.9012
+Version: 1.0.2.9014
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
            drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,

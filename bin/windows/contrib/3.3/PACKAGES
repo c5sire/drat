@@ -104,7 +104,7 @@ Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rh
 License: GPL-3
 
 Package: hidap
-Version: 1.0.2.9014
+Version: 1.0.2.9015
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
            drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,

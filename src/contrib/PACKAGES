@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.6
+Version: 0.0.7
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
-           htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles,
-           readxl, fbglobal, rstudioapi, st4gi, pepa
+           htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles, readxl,
+           fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: e102f62b34e81ef654ed12bca16df42d
+MD5sum: b9dc82526ffe444af8f974819f2646fe
 NeedsCompilation: no
 
 Package: cropont
@@ -70,8 +70,8 @@ Package: fbdesign
 Version: 2.0.1
 Depends: R (>= 3.2.1)
 Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae, readxl, stringr,
-           fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram, fbprstages, fbsites, dplyr,
-           magrittr, lazyeval, data.table, openxlsx
+           fbglobal, fbcrops, fbmaterials, fbmodule, fbprogram, fbprstages, fbsites, dplyr, magrittr,
+           lazyeval, data.table, openxlsx
 License: GPL-3
 MD5sum: 75d3a29820ada73d4269a36a6030e3f5
 NeedsCompilation: no
@@ -93,13 +93,13 @@ MD5sum: c7283e5fcc47df12ad4f9758af404afd
 NeedsCompilation: no
 
 Package: fbmaterials
-Version: 0.0.7.9002
+Version: 0.0.7.9003
 Depends: R (>= 3.2.4)
 Imports: agricolae, lubridate, magrittr
 Suggests: testthat, knitr, rmarkdown, fbglobal, readxl, stringr, shiny, shinydashboard,
            rhandsontable, shinyFiles, shinyBS, fbcrops, shinyjs
 License: GPL-3
-MD5sum: 910102b6ef2b9c597b95657536733c9a
+MD5sum: 99766d4d2192de267b5fa294a9cb6774
 NeedsCompilation: no
 
 Package: fbmet
@@ -136,27 +136,26 @@ MD5sum: 5b76c16434c02f0cf17cda8e0fbd9c8b
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.2.9011
+Version: 1.0.2.9012
 Depends: R (>= 3.2.2)
-Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI,
-           devtools, drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr,
-           raster, fbhelp, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, data.table, leaflet,
-           d3heatmap, cropont, fbmaterials, fbcrops, fbsites, readxl, stringr, shiny,
-           shinydashboard, rhandsontable, shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl,
-           pander, fbdesign, plotly, sbformula, traittools, fbcheck, brapi, brapps, countrycode,
-           RMySQL, fbcollect, prettyunits, tibble, gtable, scales, xtable, Rcpp, RColorBrewer,
-           spsurvey, colorspace, plyr, klaR, combinat, spdep, deldir, coda, LearnBayes, gmodels,
-           gtools, sp, Hmisc, Formula, acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos,
-           spsurvey, stringi, shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks,
-           rmarkdown, yaml
+Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
+           drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,
+           fbhelp, st4gi, pepa, testthat, knitr, rmarkdown, fbglobal, data.table, leaflet, d3heatmap,
+           cropont, fbmaterials, fbcrops, fbsites, readxl, stringr, shiny, shinydashboard,
+           rhandsontable, shinyFiles, shinyTree, shinyBS, shinyjs, qtlcharts, qtl, pander, fbdesign,
+           plotly, sbformula, traittools, fbcheck, brapi, brapps, countrycode, RMySQL, fbcollect,
+           prettyunits, tibble, gtable, scales, xtable, Rcpp, RColorBrewer, spsurvey, colorspace,
+           plyr, klaR, combinat, spdep, deldir, coda, LearnBayes, gmodels, gtools, sp, Hmisc,
+           Formula, acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey, stringi,
+           shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks, rmarkdown, yaml
 License: GPL-3
-MD5sum: d4cbeedc8d2068bd46ad453d29c29865
+MD5sum: 295538a59212f23c32737667f910968b
 NeedsCompilation: no
 
 Package: leaflet
 Version: 1.0.1.9004
-Imports: base64enc, htmlwidgets, htmltools, magrittr, markdown, png, RColorBrewer, raster, scales
-           (>= 0.2.5), sp
+Imports: base64enc, htmlwidgets, htmltools, magrittr, markdown, png, RColorBrewer, raster, scales (>=
+           0.2.5), sp
 Suggests: knitr, maps, shiny, testit (>= 0.4), rgdal, R6, RJSONIO
 License: GPL-3 | file LICENSE
 MD5sum: 95e6851d7c197f4c4437d69871d8a71b

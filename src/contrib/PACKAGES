@@ -8,13 +8,13 @@ MD5sum: f877e618a08506c3a8957ab2a6ceadd3
 NeedsCompilation: no
 
 Package: brapps
-Version: 0.0.11
+Version: 0.0.13
 Depends: R (>= 3.2.4)
 Imports: brapi, agricolae, d3heatmap, httr, magrittr, qtl, qtlcharts, shiny, DT, fbmaterials,
            htmlTable, leaflet, miniUI, randomForest, rmarkdown, stringr, withr, shinyFiles, readxl,
            fbglobal, rstudioapi, st4gi, pepa
 License: GPL-3
-MD5sum: 8390ad3b77fc780c707eccfceafbd2ee
+MD5sum: a81e7b978f019e60dd2eb7795863a44e
 NeedsCompilation: no
 
 Package: cropont
@@ -136,7 +136,7 @@ MD5sum: 5b76c16434c02f0cf17cda8e0fbd9c8b
 NeedsCompilation: no
 
 Package: hidap
-Version: 1.0.2.9015
+Version: 1.0.2.9016
 Depends: R (>= 3.2.2)
 Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops, curl, DBI, devtools,
            drat, labeling, gdata, httpuv, htmlwidgets, magrittr, minqa, munsell, nloptr, raster,
@@ -149,7 +149,7 @@ Imports: agricolae, openxlsx, foreign, AlgDesign, assertthat, base64enc, bitops,
            Formula, acepack, latticeExtra, gridExtra, lazyeval, chron, rgeos, spsurvey, stringi,
            shinyURL, shinysky, V8, fbmet, fbanalysis, fbmlist, fbopenbooks, rmarkdown, yaml
 License: GPL-3
-MD5sum: 0cc47208c6cf47907322d585e635e7f8
+MD5sum: 4cfe269ea03a68a1cd4c2bd3727d5680
 NeedsCompilation: no
 
 Package: leaflet

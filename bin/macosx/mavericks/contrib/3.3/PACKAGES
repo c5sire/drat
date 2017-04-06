@@ -1,8 +1,0 @@
-Package: brapi
-Version: 0.0.0.9048
-Depends: R (>= 3.2.4)
-Imports: httr, jsonlite, stringr, progress, curl, magrittr, shiny, dplyr, fbglobal
-Suggests: knitr, miniUI, rmarkdown
-License: GPL-3
-MD5sum: 9a8c5b36c2c2a3fc9822cc2839789afd
-

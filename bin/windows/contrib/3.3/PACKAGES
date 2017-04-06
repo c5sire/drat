@@ -118,9 +118,8 @@ License: MIT + file LICENSE
 Package: fbsites
 Version: 0.0.2
 Depends: R (>= 3.2.2)
-Suggests: dplyr, testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard,
-         rhandsontable, stringr, shinyjs, countrycode, data.table, magrittr,
-         countrycode
+Imports: dplyr, shinyjs, shinysky, stringr, magrittr
+Suggests: testthat, knitr, rmarkdown, fbglobal, shiny, shinydashboard, rhandsontable
 License: GPL-3
 
 Package: hidap

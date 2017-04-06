@@ -23,6 +23,13 @@ Suggests: fbglobal, fbcrops, rhandsontable, shiny, shinydashboard, testthat, RSe
          readxl, stringr, magrittr
 License: GPL-3
 
+Package: d3heatmap
+Version: 0.6.1.1
+Imports: scales (>= 0.2.5), htmlwidgets, png, base64enc, dendextend (>= 0.18.0), stats,
+         grDevices
+Suggests: shiny, knitr
+License: GPL-3 | file LICENSE
+
 Package: DT
 Version: 0.2.12
 Imports: htmltools (>= 0.3.5), htmlwidgets (>= 0.6), magrittr, crosstalk
@@ -63,6 +70,11 @@ Suggests: shiny, shinydashboard, rhandsontable, shinyTree, shinyBS, agricolae,
          fbprogram, fbprstages, fbsites, magrittr, lazyeval, data.table, openxlsx
 License: GPL-3
 
+Package: fbdocs
+Version: 1.0.0
+Depends: R (>= 3.3.1)
+License: MIT + file LICENSE
+
 Package: fbglobal
 Version: 0.2.11
 Depends: R (>= 3.2.4)
@@ -92,7 +104,7 @@ Suggests: BiocStyle, knitr, rmarkdown, testthat, DT, shinydashboard, shinyBS
 License: GPL-2
 
 Package: fbmlist
-Version: 2.0.3
+Version: 2.0.5
 Depends: R (>= 3.1.1), DBI, RMySQL, spsurvey, foreign, DT, data.table, dplyr, openxlsx,
          shiny, shinydashboard, shinyjs, shinysky, stringr
 License: MIT + file LICENSE
@@ -152,6 +164,12 @@ Imports: agricolae, evaluate, factoextra, htmltools, knitr, rmarkdown, rprojroot
          tidyr, yaml, magrittr, purrr, backports, MASS, nlme
 Suggests: testthat
 License: MIT + file LICENSE
+
+Package: pvs
+Version: 0.0.0.9000
+Depends: R (>= 3.3.1)
+Imports: ggplot2, dplyr, tidyr, purrr, stringr
+License: MIT + file LICENCE
 
 Package: sbformula
 Version: 2.0.1
